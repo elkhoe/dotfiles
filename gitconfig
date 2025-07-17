@@ -1,0 +1,12 @@
+[alias]
+	co = checkout
+	cob = checkout -b
+	cm = commit -m
+	pu = push -u origin
+	br = branch
+	lg = -c color.diff=true log --oneline --decorate --graph
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit
+	po = !git push origin $(git branch --show-current) --set-upstream
+[user]
+	email = ekhoe@premierlacrosseleague.com
+	name = Ethan Khoe

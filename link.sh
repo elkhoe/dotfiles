@@ -30,5 +30,6 @@ create_symlink() {
 # Create symlinks
 create_symlink "$DOTFILES_DIR/zshrc" "$HOME/.zshrc"
 create_symlink "$DOTFILES_DIR/gitconfig" "$HOME/.gitconfig"
+create_symlink "$DOTFILES_DIR/sshconfig" "$HOME/.ssh/config"
 
 echo "Done!"

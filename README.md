@@ -6,6 +6,7 @@ My personal dotfiles repository for macOS. This repo contains configuration file
 
 - **`.zshrc`** - Zsh shell configuration
 - **`gitconfig`** - Git configuration
+- **`sshconfig`** - SSH configuration
 - **`link.sh`** - Script to create symbolic links
 
 ## Quick Setup
@@ -44,6 +45,7 @@ vim ~/dotfiles/zshrc
 
 - `zshrc` - Zsh configuration with aliases, functions, and environment setup
 - `gitconfig` - Git configuration with user settings and aliases
+- `sshconfig` - SSH configuration for GitHub and other hosts
 - `link.sh` - Automated script to create symbolic links with backup functionality
 
 ## Backup
@@ -53,6 +55,7 @@ The `link.sh` script automatically backs up existing configuration files as `.ba
 ```bash
 mv ~/.zshrc.backup ~/.zshrc
 mv ~/.gitconfig.backup ~/.gitconfig
+mv ~/.ssh/config.backup ~/.ssh/config
 ```
 
 ## Syncing Across Machines
